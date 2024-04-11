@@ -1,6 +1,6 @@
-# Readme Title
+# Title
 
-One Paragraph of project description goes here
+equality와 Identity란 무엇인가
 
 ## Getting Started
 
