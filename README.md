@@ -1,6 +1,4 @@
-# Title
-
-Equality와 Identity란 무엇인가
+# Equality와 Identity란 무엇인가
 
 ## Equality
 
