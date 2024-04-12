@@ -23,7 +23,7 @@ Identity란 객체의 동일성을 이야기한다.
 Object에서의 equals함수 안에 "==" 연산자가 포함되어 있는걸 볼 수 있다.  
 즉 이말은 equals는 분명 동등 비교인데 이상태로는 동일성 비교라는 것을 알 수 있다.
 
-그렇다면 직접 코드로 구현해보자  
+- 그렇다면 직접 코드로 구현해보자  
 
 ![image](https://github.com/uyeoli/equality-Identity/assets/123793696/2e2f9b55-e96c-423c-8bca-d9a55619127d)  
 
@@ -33,12 +33,20 @@ String은 Object를 상속받았고, 위에서 equals함수와 "==" 연산자는
 
 확인해보니 결과값이 다르다. 이유가 무엇일까?  
 
-String 클래스에서의 equals는 Object 클래스의 equals를 재정의 해서 사용하고 있다. 코드로 직접 확인해보자.
+- String class에서의 equals는 Object class의 equals를 재정의 해서 사용하고 있다. 코드로 직접 확인해보자.
 
 ![image](https://github.com/uyeoli/equality-Identity/assets/123793696/4fe926da-a6aa-44ea-b6f8-12d000a37cc0)
 
-확인해보니 Object의 equals와 String의 equals가 다르게 동작하는 것을 확인할 수 있다.
+확인해보니 Object의 equals와 String의 equals가 다르게 동작하는 것을 확인할 수 있다.  
+이로 인하여 String class는 equals() 메소드를 재정의해서 주소값 비교가 아닌 문자열 '값'만을 비교한다.
 따라서 equals 함수는 사용하는 객체의 특성에 맞게 재정의하여 사용을 해야 제대로 동등성의 기능을 수행할 수 있음을 알 수 있다.
+
+##equals함수 재정의로 인한 객체의 동등성 보장
+
+위에서는 객체의 동등성은 equals함수만 재정의하면 되는 것 처럼 보인다.
+
+
+
 
 
 
