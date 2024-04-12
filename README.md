@@ -31,8 +31,14 @@ String은 Object를 상속받았고, 위에서 equals함수와 "==" 연산자는
 
 ![image](https://github.com/uyeoli/equality-Identity/assets/123793696/497d9aa7-2aa8-451c-b097-968acdd9a7ba)  
 
-확인해보니 결과값이 다르다. 이유가 무엇일까?
+확인해보니 결과값이 다르다. 이유가 무엇일까?  
 
+String 클래스에서의 equals는 Object 클래스의 equals를 재정의 해서 사용하고 있다. 코드로 직접 확인해보자.
+
+![image](https://github.com/uyeoli/equality-Identity/assets/123793696/4fe926da-a6aa-44ea-b6f8-12d000a37cc0)
+
+확인해보니 Object의 equals와 String의 equals가 다르게 동작하는 것을 확인할 수 있다.
+따라서 equals 함수는 사용하는 객체의 특성에 맞게 재정의하여 사용을 해야 제대로 동등성의 기능을 수행할 수 있음을 알 수 있다.
 
 
 
