@@ -23,6 +23,17 @@ Identity란 객체의 동일성을 이야기한다.
 Object에서의 equals함수 안에 "==" 연산자가 포함되어 있는걸 볼 수 있다.  
 즉 이말은 equals는 분명 동등 비교인데 이상태로는 동일성 비교라는 것을 알 수 있다.
 
+그렇다면 직접 코드로 구현해보자  
+
+![image](https://github.com/uyeoli/equality-Identity/assets/123793696/2e2f9b55-e96c-423c-8bca-d9a55619127d)  
+
+String은 Object를 상속받았고, 위에서 equals함수와 "==" 연산자는 똑같이 동작하는 것을 알았다. 따라서 해당 코드의 결과값은 false로 동일해야하지 않을까?  
+
+![image](https://github.com/uyeoli/equality-Identity/assets/123793696/497d9aa7-2aa8-451c-b097-968acdd9a7ba)  
+
+확인해보니 결과값이 다르다. 이유가 무엇일까?
+
+
 
 
 
