@@ -17,7 +17,7 @@ Identity란 객체의 동일성을 이야기한다.
 ## 동등성과 동일성의 차이
 
 의미만 봤을 때는 다르게 느껴질 수 있으나 직접 코드를 열어보자  
-![image](https://github.com/uyeoli/equality-Identity/assets/123793696/b0de72c5-05f0-4bfa-9c11-71f0b466eb99)
+![image](https://github.com/uyeoli/equality-Identity/assets/123793696/b0de72c5-05f0-4bfa-9c11-71f0b466eb99)  
 Object에서의 equals함수 안에 "==" 연산자가 포함되어 있는걸 볼 수 있다.  
 즉 이말은 equals는 분명 동등 비교인데 이상태로는 동일성 비교라는 것을 알 수 있다.
 
