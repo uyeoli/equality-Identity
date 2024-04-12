@@ -1,56 +1,44 @@
 # Title
 
-equality와 Identity란 무엇인가
+Equality와 Identity란 무엇인가
 
 ## Equality
 
 Equality란 객체의 동등성을 말한다.  
+여기서 말하는 동등성이란 객체의 값이 같은지를 비교하는 것이다.  
 동등성을 비교하기 위해서는 주로 equals()함수를 이용한다.
 
 ## Identity
 
 Identity란 객체의 동일성을 이야기한다.  
+여기서 말하는 동일성이란 객체의 메모리 주소가 같은지를 비교하는 것이다.  
 동일성을 비교하기 위해서는 주로 "==" 연산자를 이용한다.
 
-What things you need to install the software and how to install them
+## 동등성과 동일성의 차이
 
-```
-Give examples
-```
+의미만 봤을 때는 다르게 느껴질 수 있으나 직접 코드를 열어보자  
+![image](https://github.com/uyeoli/equality-Identity/assets/123793696/b0de72c5-05f0-4bfa-9c11-71f0b466eb99)
+Object에서의 equals함수 안에 "==" 연산자가 포함되어 있는걸 볼 수 있다.  
+즉 이말은 equals는 분명 동등 비교인데 이상태로는 동일성 비교라는 것을 알 수 있다.
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
-```
-Give the example
-```
 
-And repeat
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
 
-Explain how to run the automated tests for this system
 
-### Break down into end to end tests
 
-Explain what these tests test and why
 
-'''
-Give an example
-'''
 
-### And coding style tests
 
-Explain what these tests test and why
+
+
+
+
+
 
 ```
 Give an example
