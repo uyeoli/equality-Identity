@@ -2,9 +2,9 @@
 
 equality와 Identity란 무엇인가
 
-## Getting Started
+## Equality
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Equality란 객체의 동등성을 말한다. 자바의 함수로는 equals()를 이야기한다.
 
 ### Prerequisites
 
