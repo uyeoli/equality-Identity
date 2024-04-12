@@ -4,9 +4,13 @@ equality와 Identity란 무엇인가
 
 ## Equality
 
-Equality란 객체의 동등성을 말한다. 자바의 함수로는 equals()를 이야기한다.
+Equality란 객체의 동등성을 말한다.  
+동등성을 비교하기 위해서는 주로 equals()함수를 이용한다.
 
-### Prerequisites
+## Identity
+
+Identity란 객체의 동일성을 이야기한다.  
+동일성을 비교하기 위해서는 주로 "==" 연산자를 이용한다.
 
 What things you need to install the software and how to install them
 
